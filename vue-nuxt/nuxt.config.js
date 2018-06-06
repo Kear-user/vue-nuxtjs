@@ -34,5 +34,12 @@ module.exports = {
         })
       }
     }
+  },
+  // 页面的切换,所有路由共用的 CSS 文件
+  css: [
+    'assets/main.css'
+  ],
+  router: {
+    middleware: 'stats'
   }
 }
